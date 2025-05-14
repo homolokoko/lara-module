@@ -1,0 +1,13 @@
+{
+    "name": "ComplianceAndProductSafety",
+    "alias": "complianceandproductsafety",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\ComplianceAndProductSafety\\Providers\\ComplianceAndProductSafetyServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

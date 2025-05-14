@@ -1,0 +1,11 @@
+{
+    "Leather": true,
+    "TextileFabric": true,
+    "Accessory": true,
+    "ProcessQCmodule": true,
+    "ProcessQCodule": true,
+    "ComplianceAndProductSafety": true,
+    "ProductDevelopment": true,
+    "FinalAuditInspection": true,
+    "ProcessQCModule": true
+}

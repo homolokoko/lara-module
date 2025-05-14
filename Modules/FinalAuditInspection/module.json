@@ -1,0 +1,13 @@
+{
+    "name": "FinalAuditInspection",
+    "alias": "finalauditinspection",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\FinalAuditInspection\\Providers\\FinalAuditInspectionServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
