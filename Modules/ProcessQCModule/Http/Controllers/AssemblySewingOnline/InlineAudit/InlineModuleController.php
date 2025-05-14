@@ -76,4 +76,19 @@ class InlineModuleController extends Controller
     {
         //
     }
+
+    public function setup()
+    {
+        return view('processqcmodule::templates.assembly-sewing-online.inline-audit.inline-module.setup');
+    }
+
+    public function report()
+    {
+        return view('processqcmodule::templates.assembly-sewing-online.inline-audit.inline-module.report');
+    }
+
+    public function inspector()
+    {
+        return view('processqcmodule::templates.assembly-sewing-online.inline-audit.inline-module.inspector');
+    }
 }

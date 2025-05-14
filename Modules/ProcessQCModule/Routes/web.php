@@ -52,6 +52,13 @@ Route::prefix('processqcmodule')->group(function() {
                 Route::get('/inspector', 'AssemblySewingOnline\InlineAudit\MeasurementAuditController@inspector')->name('processqcmodule::assembly/sewing-online.inline-audit.measurement-audit.inspector');
             });
 
+            Route::prefix('inline')->group(function(){
+                Route::get('/',fn()=>redirect()->route('processqcmodule::assembly/sewing-online.inline-audit.inline.setup'))->name('processqcmodule::assembly/sewing-online.inline-audit.inline');
+                Route::get('/setup', 'AssemblySewingOnline\InlineAudit\InlineModuleController@setup')->name('processqcmodule::assembly/sewing-online.inline-audit.inline.setup');
+                Route::get('/report', 'AssemblySewingOnline\InlineAudit\InlineModuleController@report')->name('processqcmodule::assembly/sewing-online.inline-audit.inline.report');
+                Route::get('/inspector', 'AssemblySewingOnline\InlineAudit\InlineModuleController@inspector')->name('processqcmodule::assembly/sewing-online.inline-audit.inline.inspector');
+            });
+
         });
 
     });
